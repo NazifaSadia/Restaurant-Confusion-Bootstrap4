@@ -2,6 +2,9 @@ body{
     padding:50px 0px 0px 0px;
     z-index:0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .navbar-dark {
      background-color: #512DA8;
@@ -35,4 +38,39 @@ address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
+}
+
+/* Social Link style*/
+
+.footer .social ul{
+    display: flex;
+    margin-bottom: 0;
+}
+.footer .social li{
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    list-style: none;
+    margin: 0 2px;
+}
+.footer .social i{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+  }
+.fa-twitter {
+    color: #00aced;
+}
+.fa-google-plus {
+    color: #DD4B39;
+}
+.fa-linkedin {
+    color: #517FA4;
+}
+.fa-youtube {
+    color: #bb0000;
 }
