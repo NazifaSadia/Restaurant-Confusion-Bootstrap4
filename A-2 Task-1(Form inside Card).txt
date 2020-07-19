@@ -1,0 +1,66 @@
+<!--Assignment-2 Task-1 (Card & Form)  OK--> 
+        <div class="row row-content" id="reserve">
+            <div class="col-12 col-sm-8 offset-sm-2 mb-3">
+                <div class="card">
+                    <h5 class="card-header text-white bg-warning">Reserve a Table</h5>
+                    <div class="card-body">
+                      <form>
+                        <!--Row 1-->
+                        <div class="form-group row">
+                            <label for="number_of_guests" class="col-md-2 col-form-label">Number of Guests</label>
+                            <div class="col-md-10">
+                                <!--Radio Button-1-->
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                </div>
+                                <!--Radio Button-2-->
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">2</label>
+                                </div>
+                                <!--Radio Button-3-->
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">3</label>
+                                </div>
+                                <!--Radio Button-4-->
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">4</label>
+                                </div>
+                                <!--Radio Button-5-->
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">5</label>
+                                </div>
+                                <!--Radio Button-6-->
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">6</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Row 2-->
+                        <div class="form-group row">
+                            <label for="date" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                            <!--Date Input Field-->
+                            <div class="col-12 col-md-4">
+                                <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                            </div>
+                             <!--Time Input Field-->
+                            <div class="col-12 col-md-4">
+                                <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                        <!--Button-->
+                        <div class="form-group row">
+                            <div class=" col-12 offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary">Reserve</button>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
